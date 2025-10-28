@@ -1,0 +1,38 @@
+{
+    // 工作台主题与外观
+    "workbench.colorTheme": "GitHub Light Colorblind (Beta)",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-light",
+    "workbench.list.smoothScrolling": true,
+    // 编辑器基础设置
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Maple Mono NF CN'",
+    "editor.letterSpacing": 1.6,
+    "editor.lineHeight": 1.6,
+    "editor.fontLigatures": "'calt', 'cv03', 'cv05', 'cv09', 'cv61', 'cv62', 'ss01'",
+    // 光标与滚动
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    // 格式化与保存
+    "editor.formatOnSave": true,
+    // 代码提示与补全
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    // 显示与界面
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    // 文件处理
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "onFocusChange",
+    // 终端设置
+    "terminal.integrated.smoothScrolling": true,
+    // 语言特定配置
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+}
